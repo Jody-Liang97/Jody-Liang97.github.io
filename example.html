@@ -1,0 +1,108 @@
+<!DOCTYPE html>     <!-- 告诉浏览器这是 HTML5 文档 -->
+<html lang="zh-CN">    <!-- 指定页面语言是中文 -->
+<head>
+    <meta charset="UTF-8">    <!-- 设置字符编码，支持中文 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 让页面在移动设备上正确显示 -->
+    <title>梁九畦的个人简历</title>   
+    <link rel="stylesheet" href="style.css">  <!-- 外部引入CSS -->
+</head>
+<body>
+    <!-- 头部：个人信息 -->
+    <header>
+    <div class="header-inner">
+        <h1>Jody</h1>
+        <p>USTC 计科学生</p>
+        <a href="https://github.com/Jody-Liang97" class="github-link" target="_blank">GitHub主页</a>
+        <br>
+        <button id="darkModeToggle" class="dark-mode-btn">🌙 暗黑模式</button>
+    </div>
+    <div class="nav-bar">
+        <div class="nav-links">
+            <a href="#about">关于我</a>
+            <a href="#skills">技能</a>
+            <a href="#education">教育经历</a>
+            <a href="#interests">兴趣爱好</a>
+        </div>
+    </div>
+    <!-- 导航栏占位元素，用于固定时保持高度 -->
+    <div class="nav-placeholder"></div>
+    </header>
+
+    <!-- 主要内容 -->
+    <main>
+        <!-- 个人简介 -->
+        <section class="container" id="about">
+            <h2>关于我</h2>
+            <p>
+                一名热爱学习的小登，擅长不断学习与改进
+            </p>
+            <p>
+                近期目标是学会使用 React 构建现代化的 Web 应用
+            </p>
+        </section>
+
+        <!-- 技能 -->
+        <section class="container" id="skills">
+            <h2>技能</h2>
+            <div class="skills-grid" id="skillsGrid">
+                <div class="skills-item"> <strong>编程语言</strong>: C语言 </div>
+                <div class="skills-item"> <strong>前端开发</strong>: HTML, CSS ,JavaScript</div>
+                <div class="skills-item"> <strong>持续学习</strong>: 前端开发进阶, 算法, 数据结构, 艺术设计, 创意编程</div>
+            </div>
+        </section>
+
+        <!-- 教育经历 -->
+        <section class="container" id="education">
+            <h2>教育经历</h2>
+            <article>
+                <h3>USTC本科</h3>
+                <p><strong>专业</strong>：计算机科学与技术 | 2025 - 2029</p>
+                <p><strong>主修课程</strong>：计算机程序设计 数学分析B1 线性代数</p>
+            </article>
+        </section>
+
+        <!-- 兴趣爱好 -->
+        <section class="container" id="interests">
+            <h2>兴趣爱好</h2>
+            
+            <article>
+                <h3>体育运动</h3>
+                <ul>
+                    <li>乒乓球, 羽毛球, 台球 </li>
+                    <li>游泳, 滑雪, 滑冰</li>
+                    <li>跑步, 健身</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>音乐艺术</h3>
+                <ul>
+                    <li>钢琴演奏</li>
+                    <li>华语流行音乐, 音乐探索</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>美食品鉴</h3>
+                <ul>
+                    <li>各种甜点</li>
+                    <li>钟爱东北菜</li>
+                </ul>
+            </article>
+
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>© 2026 Jody. 保留所有权利.</p>
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    <button id="backToTop" class="back-to-top" title="返回顶部"><strong>↑</strong></button>
+
+    <!-- JavaScript引入 -->
+    <script src="script.js"></script>
+
+</body>
+</html>
